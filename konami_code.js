@@ -20,5 +20,3 @@ konamiCode.addEventListener('keydown', function(k){
 } return id
 })
 }
-
-init()
