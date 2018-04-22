@@ -8,7 +8,7 @@ konamiCode.addEventListener('keydown', function(e){
    for(let i = 0; i < code.length; i++){
     if (key === code[i]) {
     id ++
-  for(let i = 0; i < code.length; i++)
+ 
     if (id === code.length) {
       alert("wow coder!");
  
