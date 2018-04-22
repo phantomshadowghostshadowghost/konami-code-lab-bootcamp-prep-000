@@ -9,14 +9,14 @@ konamiCode.addEventListener('keydown', function(e){
     if (key === code[i]) {
     id += 1
  
-    if (id === code.length - 1 ) {
+    if (id === code.length) {
       alert("wow coder!");
  
       id = 0;
     }
   } else {
     id = 0;
-  }return id
+  }
 } 
 })
 }
