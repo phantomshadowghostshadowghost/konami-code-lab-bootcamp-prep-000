@@ -5,10 +5,10 @@ function init() {
 const konamiCode = document.querySelector('body')
 konamiCode.addEventListener('keydown', function(e){
  const key = parseInt(e.detail || e.which);
-   for(id = 0; id < code.length; id++){
-    if (key === code[id]) {
-    id += 1
- 
+   for(let i = 0; i < code.length; i++){
+    if (key === code[i]) {
+    id ++
+  for(let i = 0; i < code.length; i++)
     if (id === code.length) {
       alert("wow coder!");
  
