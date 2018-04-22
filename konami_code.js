@@ -5,7 +5,7 @@ function init() {
 const konamiCode = document.querySelector('body')
 konamiCode.addEventListener('keydown', function(e){
  const key = parseInt(e.detail || e.which);
-   for(let i = 0; i < code.length; i++){
+   for(id = 0; id < code.length; id++){
     if (key === code[id]) {
     id += 1
  
