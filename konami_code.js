@@ -9,7 +9,7 @@ konamiCode.addEventListener('keydown', function(e){
     if (key === code[i]) {
     id ++;
  
-    if (i === code.length) {
+    if (i === code.length - 1) {
       alert("wow coder!");
  
       id = 0;
