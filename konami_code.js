@@ -16,7 +16,7 @@ konamiCode.addEventListener('keydown', function(e){
     }
   } else {
     id = 0;
-  }
-} return id
+  }return id
+} 
 })
 }
